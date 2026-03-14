@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/notes";
+const API = "http://notes-api.example.com/notes"; // Change this to your actual API endpoint
 
 async function loadNotes(){
     const res = await fetch(API);
